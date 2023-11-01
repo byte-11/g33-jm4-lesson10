@@ -1,5 +1,5 @@
 package service;
 
 public interface UserService {
-    void save(String firstName, String lastName, int age);
+    void save(long id, String firstName, String lastName, int age);
 }

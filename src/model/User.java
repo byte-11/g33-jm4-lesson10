@@ -3,15 +3,25 @@ package model;
 import java.util.List;
 
 public class User {
+    private long id;
     private String firstName;
     private String lastName;
-    private String age;
+    private int age;
     private List<Payment> payments;
 
-    public User(String firstName, String lastName, String age) {
+    public User(long id, String firstName, String lastName, int age) {
+        this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -30,11 +40,11 @@ public class User {
         this.lastName = lastName;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 

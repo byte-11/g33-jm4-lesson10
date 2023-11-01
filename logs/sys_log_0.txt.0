@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-01T12:38:43.918979200Z</date>
+  <millis>1698842323918</millis>
+  <nanos>979200</nanos>
+  <sequence>299</sequence>
+  <logger>FineHandlerTest</logger>
+  <level>INFO</level>
+  <class>FineHandlerTest</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>info</message>
+</record>
+</log>
