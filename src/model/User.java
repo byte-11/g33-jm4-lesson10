@@ -1,9 +1,12 @@
 package model;
 
+import java.util.List;
+
 public class User {
     private String firstName;
     private String lastName;
     private String age;
+    private List<Payment> payments;
 
     public User(String firstName, String lastName, String age) {
         this.firstName = firstName;
@@ -33,5 +36,13 @@ public class User {
 
     public void setAge(String age) {
         this.age = age;
+    }
+
+    public List<Payment> getPayments() {
+        return payments;
+    }
+
+    public void setPayments(List<Payment> payments) {
+        this.payments = payments;
     }
 }
